@@ -10,7 +10,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
+        A creative selection of my{" "}
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -21,8 +21,8 @@ const RecentProjects = () => {
           >
 
             <PinContainer
-              title={item.link}
-              href={item.link}
+              title={item.urlName}
+            
             >
               <div>
                 <Link href={item.link}>
@@ -72,7 +72,7 @@ const RecentProjects = () => {
                     <div className="flex justify-center items-center">
                       <Link href={item.link}>
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                          Check Live Site
+                          Check Live Link
                         </p>
                       </Link>
                       <FaLocationArrow className="ms-3" color="#CBACF9" />

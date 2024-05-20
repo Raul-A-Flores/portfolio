@@ -39,12 +39,12 @@ const Hero = () => {
 
 
           <TextGenerateEffect
-            words="Creating quality code everyday"
+            words="Innovative Code for Your Unique Needs"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Raul, a Full-Stack Developer based in Los Angeles. 
+            Hello! I&apos;m Raul, a Freelance Full-Stack Developer based in Los Angeles. 
           </p>
 
           <a href="#about">

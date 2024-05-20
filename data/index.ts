@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -28,7 +27,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My technologies",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,12 +48,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Full-Stack Rust Program",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "",
     spareImg: "/grid.svg",
   },
   {
@@ -74,66 +73,82 @@ export const projects = [
     id: 1,
     title: "Saas PDF",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/pdf_saas.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://saas-pdf.vercel.app",
+    urlName: "Saas PDF"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "AiLearn",
+    des: "Saas AI course generator built with Next14 implementing OpenAI Api and Stripe.",
+    img: "/ai_learn.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://ailearn-iota.vercel.app/gallery",
+    urlName: "AiLearn"
+
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Raven",
+    des: "Threads influenced social media application built with Next13 in TypeScript",
+    img: "/raven.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    link: "https://raven-social-media.vercel.app",
+    urlName: "Raven"
+
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "CryptoFlo",
+    des: "Web3 NFT Marketplace built on Ethereum test network using Solidity and JavaScript.",
+    img: "/crypto.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://cryptoflo-app.vercel.app",
+    urlName: "CryptoFlo"
+
   },
-   {
+    {
     id: 5,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Gericht",
+    des: "Frontend restaurant static page influenced by Figma design",
+    img: "/gericht.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://restaurant-eight-lemon.vercel.app",
+    urlName: "Gericht",
+
   },
-   {
+    {
     id: 6,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Flor",
+    des: "Movie Database Built with React with voice integration.",
+    img: "/flor.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://flor-three.vercel.app",
+    urlName: "Flor",
+
   },
-   {
+    {
     id: 7,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Solana Movie Review",
+    des: "Backend for movie review application built in Rust on the Solana Web3 Network",
+    img: "/solana.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/Raul-A-Flores/rust_movie_review_app",
+    urlName: "Solana Movie Review",
+
   },
-   {
+      {
     id: 8,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Personal Portfolio",
+    des: "Personal portfolio displaying current work built with Next14, TypeScript and Sanity",
+    img: "/profile.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
+    link: "https://portfolio-1wr7.vercel.app",
+    urlName: "Personal Portfolio",
+
   },
+
 ];
 
 
@@ -174,31 +189,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Fullstack Developer",
+    desc: "Freelance developer specializing in full stack web development.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "",
   },
   {
     id: 2,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Flores Collectibles",
+    desc: "Ecommerce Store Founder specializing in collectible products",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Emergency Medical Dispatcher",
+    desc: "EMD for Care Ambulance (current known as Falck Ambulance",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Emergency Medical Technician",
+    desc: "EMT for McCormick Ambulance servicing Los Angeles County.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "",
   },
 ];
 
