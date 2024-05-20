@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Saas PDF",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://saas-pdf.vercel.app",
   },
   {
     id: 2,
@@ -206,13 +206,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Raul-A-Flores"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/Raul__Floress"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/raul-floress"
   },
 ];
