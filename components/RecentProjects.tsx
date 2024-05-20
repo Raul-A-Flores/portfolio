@@ -70,7 +70,7 @@ const RecentProjects = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                      <Link href={item}>
+                      <Link href={item.link}>
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                           Check Live Site
                         </p>
