@@ -74,18 +74,20 @@ export const projects = [
     title: "Saas PDF",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/pdf_saas.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/pinecone.png","/aws.png","/stripe.png"],
     link: "https://saas-pdf.vercel.app",
-    urlName: "Saas PDF"
+    urlName: "Saas PDF",
+    github:"https://github.com/Raul-A-Flores/saas_pdf"
   },
   {
     id: 2,
     title: "AiLearn",
     des: "Saas AI course generator built with Next14 implementing OpenAI Api and Stripe.",
     img: "/ai_learn.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-    link: "https://ailearn-iota.vercel.app/gallery",
-    urlName: "AiLearn"
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/supabase.png","/stripe.png"],
+    link: "https://ailearn-iota.vercel.app",
+    urlName: "AiLearn", 
+    github: "https://github.com/Raul-A-Flores/course_saas"
 
   },
   {
@@ -93,9 +95,10 @@ export const projects = [
     title: "Raven",
     des: "Threads influenced social media application built with Next13 in TypeScript",
     img: "/raven.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg","/monogodb_logo.png",],
     link: "https://raven-social-media.vercel.app",
-    urlName: "Raven"
+    urlName: "Raven",
+    github: "https://github.com/Raul-A-Flores/Raven_social_media"
 
   },
   {
@@ -103,9 +106,10 @@ export const projects = [
     title: "CryptoFlo",
     des: "Web3 NFT Marketplace built on Ethereum test network using Solidity and JavaScript.",
     img: "/crypto.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg",, "/tail.svg","/javascript.png","/solidity.svg", "/eth.png"],
     link: "https://cryptoflo-app.vercel.app",
-    urlName: "CryptoFlo"
+    urlName: "CryptoFlo",
+    github: "https://github.com/Raul-A-Flores/crypto-flo"
 
   },
     {
@@ -113,9 +117,10 @@ export const projects = [
     title: "Gericht",
     des: "Frontend restaurant static page influenced by Figma design",
     img: "/gericht.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://restaurant-eight-lemon.vercel.app",
     urlName: "Gericht",
+    github: "https://github.com/Raul-A-Flores/gericht"
 
   },
     {
@@ -123,9 +128,10 @@ export const projects = [
     title: "Flor",
     des: "Movie Database Built with React with voice integration.",
     img: "/flor.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: [ "/tail.svg", "/ts.svg", "/re.svg",],
     link: "https://flor-three.vercel.app",
     urlName: "Flor",
+    github: "https://vercel.com/raulaflores-projects/flor"
 
   },
     {
@@ -133,9 +139,10 @@ export const projects = [
     title: "Solana Movie Review",
     des: "Backend for movie review application built in Rust on the Solana Web3 Network",
     img: "/solana.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: ["/solana_logo.png","/image.png"],
     link: "https://github.com/Raul-A-Flores/rust_movie_review_app",
     urlName: "Solana Movie Review",
+    github: "https://github.com/Raul-A-Flores/solana_cpi/tree/main/solana-movie-program"
 
   },
       {
@@ -146,6 +153,7 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg",],
     link: "https://portfolio-1wr7.vercel.app",
     urlName: "Personal Portfolio",
+    github: "https://github.com/Raul-A-Flores/portfolio"
 
   },
 

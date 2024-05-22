@@ -70,9 +70,9 @@ const RecentProjects = () => {
                     </div>
 
                     <div className="flex justify-center items-center">
-                      <Link href={item.link}>
+                      <Link href={item.github}>
                         <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                          Check Live Link
+                          Check Github Link
                         </p>
                       </Link>
                       <FaLocationArrow className="ms-3" color="#CBACF9" />
