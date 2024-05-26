@@ -74,7 +74,7 @@ export const projects = [
     title: "Saas PDF",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/pdf_saas.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/pinecone.png","/aws.png","/stripe.png"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/pinecone.png","/aws.png","/stripe.png","/openai.png"],
     link: "https://saas-pdf.vercel.app",
     urlName: "Saas PDF",
     github:"https://github.com/Raul-A-Flores/saas_pdf"
@@ -84,7 +84,7 @@ export const projects = [
     title: "AiLearn",
     des: "Saas AI course generator built with Next14 implementing OpenAI Api and Stripe.",
     img: "/ai_learn.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/supabase.png","/stripe.png"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "/supabase.png","/stripe.png","/openai.png"],
     link: "https://ailearn-iota.vercel.app",
     urlName: "AiLearn", 
     github: "https://github.com/Raul-A-Flores/course_saas"
@@ -128,7 +128,7 @@ export const projects = [
     title: "Flor",
     des: "Movie Database Built with React with voice integration.",
     img: "/flor.png",
-    iconLists: [ "/tail.svg", "/ts.svg", "/re.svg",],
+    iconLists: [ "/tail.svg", "/ts.svg", "/re.svg","/alan.png"],
     link: "https://flor-three.vercel.app",
     urlName: "Flor",
     github: "https://vercel.com/raulaflores-projects/flor"
@@ -156,6 +156,40 @@ export const projects = [
     github: "https://github.com/Raul-A-Flores/portfolio"
 
   },
+   {
+    id: 9,
+    title: "BrandPal",
+    des: "AI Generated Branding Assistant utilizing OpenAI and AWS technologies to create branding snippets and tags",
+    img: "/Brandpal.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","/lambda.svg","/python.png","/aws.png","/openai.png"],
+    link: "https://portfolio-1wr7.vercel.app",
+    urlName: "BrandPal",
+    github: "https://github.com/Raul-A-Flores/BrandPal"
+
+  },
+     {
+    id: 10,
+    title: "Tennis Analysis System",
+    des: "Tennis Analysis System using machine learning and deep learning",
+    img: "/Tennis.png",
+    iconLists: ["/python.png","ultra.png","/pytorch.png","/numpy.svg"],
+    link: "https://github.com/Raul-A-Flores/tennis",
+    urlName: "Tennis Analysis System",
+    github: "https://github.com/Raul-A-Flores/tennis"
+
+  },
+    {
+    id: 11,
+    title: "Fullstack Next.js 14 Rust Backend Application",
+    des: "Fullstack Next.js Frontend and Backend Rust",
+    img: "/rust_next.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","/image.png" ],
+    link: "",
+    urlName: "Rust Next.js 14",
+    github: ""
+
+  },
+
 
 ];
 
